@@ -1,0 +1,25 @@
+.grid{
+    background-color: #444;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+.grid div{
+    width: 140px;
+    height: 140px;
+    background-color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid div img{
+    width: 100%;
+}
+
+
